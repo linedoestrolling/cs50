@@ -1,0 +1,164 @@
+p is 0
+r is 7
+q is 3
+p is 0
+r is 3
+q is 1
+p is 0
+r is 1
+q is 0
+p is 0
+r is 0
+reach end case
+p is 1
+r is 1
+reach end case
+a initialized as : 0
+b initialized as : 1
+c initialized as : 0
+r initialized as : 1
+q is: 0
+b is : 1
+c is : 0
+element is 6
+grabbing the rest in first half
+grabbed element is: 3
+input element is: 6
+input element is: 3
+p is 2
+r is 3
+q is 2
+p is 2
+r is 2
+reach end case
+p is 3
+r is 3
+reach end case
+a initialized as : 2
+b initialized as : 3
+c initialized as : 0
+r initialized as : 3
+q is: 2
+b is : 3
+c is : 0
+element is 4
+grabbing the rest in first half
+grabbed element is: 2
+input element is: 4
+input element is: 2
+a initialized as : 0
+b initialized as : 2
+c initialized as : 0
+r initialized as : 3
+q is: 1
+a is : 0
+c is : 0
+element is 4
+a is : 1
+b is : 2
+c is : 1
+element 1 is 2
+element 2 is 2
+grabbing the rest in second half
+grabbed element is: 4
+input element is: 4
+input element is: 2
+input element is: 2
+input element is: 4
+p is 4
+r is 7
+q is 5
+p is 4
+r is 5
+q is 4
+p is 4
+r is 4
+reach end case
+p is 5
+r is 5
+reach end case
+a initialized as : 4
+b initialized as : 5
+c initialized as : 0
+r initialized as : 5
+q is: 4
+b is : 5
+c is : 0
+element is 5
+grabbing the rest in first half
+grabbed element is: 1
+input element is: 5
+input element is: 1
+p is 6
+r is 7
+q is 6
+p is 6
+r is 6
+reach end case
+p is 7
+r is 7
+reach end case
+a initialized as : 6
+b initialized as : 7
+c initialized as : 0
+r initialized as : 7
+q is: 6
+a is : 6
+c is : 0
+element is 8
+grabbing the rest in second half
+grabbed element is: 7
+input element is: 8
+input element is: 7
+a initialized as : 4
+b initialized as : 6
+c initialized as : 0
+r initialized as : 7
+q is: 5
+b is : 6
+c is : 0
+element is 8
+b is : 7
+c is : 1
+element is 7
+grabbing the rest in first half
+grabbed element is: 1
+grabbing the rest in first half
+grabbed element is: 5
+input element is: 8
+input element is: 7
+input element is: 1
+input element is: 5
+a initialized as : 0
+b initialized as : 4
+c initialized as : 0
+r initialized as : 7
+q is: 3
+a is : 0
+c is : 0
+element is 8
+a is : 1
+c is : 1
+element is 7
+a is : 2
+b is : 4
+c is : 2
+element 1 is 1
+element 2 is 1
+a is : 3
+b is : 5
+c is : 4
+element 1 is 5
+element 2 is 5
+grabbing the rest in second half
+grabbed element is: 8
+grabbing the rest in second half
+grabbed element is: 7
+input element is: 8
+input element is: 7
+input element is: 1
+input element is: 1
+input element is: 5
+input element is: 5
+input element is: 8
+input element is: 7
