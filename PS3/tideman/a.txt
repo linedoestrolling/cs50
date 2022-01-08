@@ -1,164 +1,150 @@
-p is 0
-r is 7
-q is 3
-p is 0
-r is 3
-q is 1
-p is 0
-r is 1
-q is 0
-p is 0
-r is 0
+start_index is 0
+end_index is 7
+middle_index is 3
+start_index is 0
+end_index is 3
+middle_index is 1
+start_index is 0
+end_index is 1
+middle_index is 0
+start_index is 0
+end_index is 0
 reach end case
-p is 1
-r is 1
+start_index is 1
+end_index is 1
 reach end case
-a initialized as : 0
-b initialized as : 1
-c initialized as : 0
-r initialized as : 1
-q is: 0
-b is : 1
-c is : 0
-element is 6
+left index initialized as : 0
+right index initialized as : 1
+middle_index is: 0
+
+left index is : 0
+main index is : 0
+element is 3
 grabbing the rest in first half
-grabbed element is: 3
-input element is: 6
+grabbed element is: 32765
 input element is: 3
-p is 2
-r is 3
-q is 2
-p is 2
-r is 2
+input element is: 32765
+start_index is 2
+end_index is 3
+middle_index is 2
+start_index is 2
+end_index is 2
 reach end case
-p is 3
-r is 3
+start_index is 3
+end_index is 3
 reach end case
-a initialized as : 2
-b initialized as : 3
-c initialized as : 0
-r initialized as : 3
-q is: 2
-b is : 3
-c is : 0
-element is 4
+left index initialized as : 2
+right index initialized as : 3
+middle_index is: 2
+
+left index is : 2
+main index is : 2
+element is 2
+input element is: 3
+input element is: 32765
+left index initialized as : 0
+right index initialized as : 2
+middle_index is: 1
+
+left index is : 0
+main index is : 0
+element is 3
+left index is : 1
+main index is : 1
+element is 32765
 grabbing the rest in first half
-grabbed element is: 2
+grabbed element is: 4341701
+input element is: 3
+input element is: 32765
+input element is: 4341701
 input element is: 4
-input element is: 2
-a initialized as : 0
-b initialized as : 2
-c initialized as : 0
-r initialized as : 3
-q is: 1
-a is : 0
-c is : 0
-element is 4
-a is : 1
-b is : 2
-c is : 1
-element 1 is 2
-element 2 is 2
-grabbing the rest in second half
-grabbed element is: 4
+start_index is 4
+end_index is 7
+middle_index is 5
+start_index is 4
+end_index is 5
+middle_index is 4
+start_index is 4
+end_index is 4
+reach end case
+start_index is 5
+end_index is 5
+reach end case
+left index initialized as : 4
+right index initialized as : 5
+middle_index is: 4
+
+right index is : 5
+main index is : 4
+element is 32765
+input element is: 3
+input element is: 32765
+start_index is 6
+end_index is 7
+middle_index is 6
+start_index is 6
+end_index is 6
+reach end case
+start_index is 7
+end_index is 7
+reach end case
+left index initialized as : 6
+right index initialized as : 7
+middle_index is: 6
+
+left index is : 6
+main index is : 6
+element is 8
+input element is: 3
+input element is: 32765
+left index initialized as : 4
+right index initialized as : 6
+middle_index is: 5
+
+left index is : 4
+main index is : 4
+element is 32765
+right index is : 6
+main index is : 5
+element is 8
+left index is : 5
+main index is : 6
+element is 8
+input element is: 3
+input element is: 32765
+input element is: 4341701
 input element is: 4
-input element is: 2
-input element is: 2
-input element is: 4
-p is 4
-r is 7
-q is 5
-p is 4
-r is 5
-q is 4
-p is 4
-r is 4
-reach end case
-p is 5
-r is 5
-reach end case
-a initialized as : 4
-b initialized as : 5
-c initialized as : 0
-r initialized as : 5
-q is: 4
-b is : 5
-c is : 0
-element is 5
-grabbing the rest in first half
-grabbed element is: 1
-input element is: 5
-input element is: 1
-p is 6
-r is 7
-q is 6
-p is 6
-r is 6
-reach end case
-p is 7
-r is 7
-reach end case
-a initialized as : 6
-b initialized as : 7
-c initialized as : 0
-r initialized as : 7
-q is: 6
-a is : 6
-c is : 0
-element is 8
-grabbing the rest in second half
-grabbed element is: 7
-input element is: 8
-input element is: 7
-a initialized as : 4
-b initialized as : 6
-c initialized as : 0
-r initialized as : 7
-q is: 5
-b is : 6
-c is : 0
-element is 8
-b is : 7
-c is : 1
-element is 7
-grabbing the rest in first half
-grabbed element is: 1
-grabbing the rest in first half
-grabbed element is: 5
-input element is: 8
-input element is: 7
-input element is: 1
-input element is: 5
-a initialized as : 0
-b initialized as : 4
-c initialized as : 0
-r initialized as : 7
-q is: 3
-a is : 0
-c is : 0
-element is 8
-a is : 1
-c is : 1
-element is 7
-a is : 2
-b is : 4
-c is : 2
-element 1 is 1
-element 2 is 1
-a is : 3
-b is : 5
-c is : 4
+left index initialized as : 0
+right index initialized as : 4
+middle_index is: 3
+
+left index is : 0
+right index is : 4
+main index is : 0
+element 1 is 32765
+element 2 is 32765
+left index is : 1
+right index is : 5
+main index is : 2
+element 1 is 8
+element 2 is 8
+left index is : 2
+right index is : 6
+main index is : 4
 element 1 is 5
 element 2 is 5
-grabbing the rest in second half
-grabbed element is: 8
-grabbing the rest in second half
-grabbed element is: 7
+left index is : 3
+right index is : 7
+main index is : 6
+element 1 is 4
+element 2 is 4
+grabbing the rest in first half
+grabbed element is: -1
+input element is: 32765
+input element is: 32765
 input element is: 8
-input element is: 7
-input element is: 1
-input element is: 1
+input element is: 8
 input element is: 5
 input element is: 5
-input element is: 8
-input element is: 7
+input element is: 4
+input element is: 4
