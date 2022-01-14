@@ -26,7 +26,6 @@ void merge_sort (int input[], int start, int end, int size) {
         return;
     }
 
-    //test
     else {
         int middle  = (start+end)/2;
 
@@ -37,26 +36,28 @@ void merge_sort (int input[], int start, int end, int size) {
 
         merge_sort(input, middle + 1, end, end - middle);
 
-        //making the 2 subarrays
+        //making the 2 subarrays    
         int left_half[middle - start + 1];
         int right_half[end - middle];
         int left_array_size = 0;
         int right_array_size = 0;
 
         for (int i = start; i <= middle; i++) { //splitting the array into 2 sub arrays
-            left_half[i] = input[i];
+            left_half[left_array_size] = input[i];
             left_array_size++;
         }
 
-        for (int i = middle+1; i < end; i++) {  // second sub array
-            right_half[i] = input[i];
+        for (int i = middle+1; i <= end; i++) {  // second sub array
+            right_half[right_array_size] = input[i];
             right_array_size++;
         }
 
+        printf("left array size is : %i\n", left_array_size);
+        printf("right array size is : %i\n", right_array_size);
         //merging
 
-        int left_array_index = start;
-        int right_array_index = middle + 1;
+        int left_array_index = 0;
+        int right_array_index = 0;
         int main_index = start;
 
         printf("left index initialized as : %i\n", left_array_index);
@@ -68,7 +69,7 @@ void merge_sort (int input[], int start, int end, int size) {
         //     temp_array[i] = 0;
         // }
 
-        while (left_array_index <= middle && right_array_index <= end) {
+        while (left_array_index < left_array_size && right_array_index < right_array_size) {
             if (left_half[left_array_index] > right_half[right_array_index]) {
                 printf("left index is : %i\n", left_array_index);
                 printf("main index is : %i\n", main_index);
@@ -100,14 +101,14 @@ void merge_sort (int input[], int start, int end, int size) {
             }
         }
 
-        while (left_array_index <= left_array_size) {
+        while (left_array_index < left_array_size) {
             printf("grabbing the rest in first half\n");
             input[main_index] = left_half[left_array_index];
             printf("grabbed element is: %i\n", left_half[left_array_index]);
             left_array_index++;
             main_index++;
         }
-        while (right_array_index <= right_array_size) {
+        while (right_array_index < right_array_size) {
             printf("grabbing the rest in second half\n");
             input[main_index] = right_half[right_array_index];
             printf("grabbed element is: %i\n", right_half[right_array_index]);

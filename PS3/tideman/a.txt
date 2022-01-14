@@ -13,17 +13,19 @@ reach end case
 start_index is 1
 end_index is 1
 reach end case
+left array size is : 1
+right array size is : 1
 left index initialized as : 0
-right index initialized as : 1
+right index initialized as : 0
 middle_index is: 0
 
 left index is : 0
 main index is : 0
 element is 3
-grabbing the rest in first half
-grabbed element is: 32765
+grabbing the rest in second half
+grabbed element is: 0
 input element is: 3
-input element is: 32765
+input element is: 0
 start_index is 2
 end_index is 3
 middle_index is 2
@@ -33,31 +35,39 @@ reach end case
 start_index is 3
 end_index is 3
 reach end case
-left index initialized as : 2
-right index initialized as : 3
+left array size is : 1
+right array size is : 1
+left index initialized as : 0
+right index initialized as : 0
 middle_index is: 2
 
-left index is : 2
+right index is : 0
 main index is : 2
-element is 2
+element is 0
+grabbing the rest in first half
+grabbed element is: -561420560
 input element is: 3
-input element is: 32765
+input element is: 0
+left array size is : 2
+right array size is : 2
 left index initialized as : 0
-right index initialized as : 2
+right index initialized as : 0
 middle_index is: 1
 
 left index is : 0
 main index is : 0
 element is 3
 left index is : 1
+right index is : 0
 main index is : 1
-element is 32765
-grabbing the rest in first half
-grabbed element is: 4341701
+element 1 is 0
+element 2 is 0
+grabbing the rest in second half
+grabbed element is: 0
 input element is: 3
-input element is: 32765
-input element is: 4341701
-input element is: 4
+input element is: 0
+input element is: 0
+input element is: 0
 start_index is 4
 end_index is 7
 middle_index is 5
@@ -70,15 +80,19 @@ reach end case
 start_index is 5
 end_index is 5
 reach end case
-left index initialized as : 4
-right index initialized as : 5
+left array size is : 1
+right array size is : 1
+left index initialized as : 0
+right index initialized as : 0
 middle_index is: 4
 
-right index is : 5
+right index is : 0
 main index is : 4
-element is 32765
+element is 0
+grabbing the rest in first half
+grabbed element is: -561420560
 input element is: 3
-input element is: 32765
+input element is: 0
 start_index is 6
 end_index is 7
 middle_index is 6
@@ -88,63 +102,70 @@ reach end case
 start_index is 7
 end_index is 7
 reach end case
-left index initialized as : 6
-right index initialized as : 7
+left array size is : 1
+right array size is : 1
+left index initialized as : 0
+right index initialized as : 0
 middle_index is: 6
 
-left index is : 6
+right index is : 0
 main index is : 6
-element is 8
+element is 0
+grabbing the rest in first half
+grabbed element is: -561420560
 input element is: 3
-input element is: 32765
-left index initialized as : 4
-right index initialized as : 6
+input element is: 0
+left array size is : 2
+right array size is : 2
+left index initialized as : 0
+right index initialized as : 0
 middle_index is: 5
 
-left index is : 4
+right index is : 0
 main index is : 4
-element is 32765
-right index is : 6
+element is 0
+right index is : 1
 main index is : 5
-element is 8
-left index is : 5
-main index is : 6
-element is 8
+element is 0
+grabbing the rest in first half
+grabbed element is: -561419248
+grabbing the rest in first half
+grabbed element is: 32766
 input element is: 3
-input element is: 32765
-input element is: 4341701
-input element is: 4
+input element is: 0
+input element is: 0
+input element is: 0
+left array size is : 4
+right array size is : 4
 left index initialized as : 0
-right index initialized as : 4
+right index initialized as : 0
 middle_index is: 3
 
 left index is : 0
-right index is : 4
+right index is : 0
 main index is : 0
-element 1 is 32765
-element 2 is 32765
+element 1 is 0
+element 2 is 0
 left index is : 1
-right index is : 5
+right index is : 1
 main index is : 2
-element 1 is 8
-element 2 is 8
-left index is : 2
-right index is : 6
+element 1 is 0
+element 2 is 0
+right index is : 2
 main index is : 4
-element 1 is 5
-element 2 is 5
-left index is : 3
-right index is : 7
-main index is : 6
-element 1 is 4
-element 2 is 4
+element is 0
+right index is : 3
+main index is : 5
+element is 0
 grabbing the rest in first half
-grabbed element is: -1
-input element is: 32765
-input element is: 32765
-input element is: 8
-input element is: 8
-input element is: 5
-input element is: 5
-input element is: 4
-input element is: 4
+grabbed element is: -561419248
+grabbing the rest in first half
+grabbed element is: 32766
+input element is: 0
+input element is: 0
+input element is: 0
+input element is: 0
+input element is: 0
+input element is: 0
+input element is: -561419248
+input element is: 32766
